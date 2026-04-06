@@ -42,4 +42,21 @@ box-shadow: 0 5px 5px rgba(0, 0, 0, 0.702);
     
 }
 
+@media (max-width: 768px) {
+  .preview {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .preview button {
+    width: 100%;
+  }
+
+  .templates {
+    width: 100%;        /* 🔥 A4 fixed width hata */
+    min-height: auto;
+    padding: 15px;
+  }
+}
+
 

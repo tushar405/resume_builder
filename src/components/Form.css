@@ -73,8 +73,17 @@ textarea:focus {
   background: #5a67d8;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
+  .form-container {
+    min-height: auto;
+    padding: 10px;
+  }
+
+  .form-card {
+    padding: 20px;
+  }
+
   .form-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr;  /* 2 column → 1 column */
   }
 }

@@ -55,3 +55,19 @@
   transform: scale(0.95);
 }
 
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;   
+  }
+
+  .left, .right {
+    width: 100%;
+  }
+
+  .right {
+    border-left: none;
+    padding-left: 0;
+  }
+}
+

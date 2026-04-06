@@ -1,26 +1,33 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import "./App.css"
 import Form from './components/Form'
 import Preview from './components/Preview'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
 
+
 const App = () => {
 
-  const[data,setData] = useState({
-    name:"",
-    profile:"",
-    phone:"",
-    email:"",
-    linkedin:"",
-    github:"",
-    summary:"",
-   skills:"",
-   experience:"",
-    projects:"",
-    education:"",
-   
-  })
+ const [data, setData] = useState(() => {
+    const savedData = localStorage.getItem("resumeData");
+    return savedData ? JSON.parse(savedData) : {
+      name:"",
+      profile:"",
+      phone:"",
+      email:"",
+      linkedin:"",
+      github:"",
+      summary:"",
+      skills:"",
+      experience:"",
+      projects:"",
+      education:"",
+    };
+  });
+
+  useEffect(() => {
+    localStorage.setItem("resumeData", JSON.stringify(data));
+  }, [data]);
 
   const[template,setTemplate] = useState("template1");
   return (
