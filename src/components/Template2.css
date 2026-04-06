@@ -1,0 +1,95 @@
+.template2 {
+  background-color: #f4f4f4;
+  padding: 15px;
+  font-family: Arial;
+}
+
+.template2 h1 {
+  display:flex;
+  justify-content: center;
+}
+
+.skills span {
+  margin-right: 10px;
+  background: #ddd;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 13px;
+  flex-wrap: nowrap;
+  overflow:hidden;
+  font-size: 11px;
+}
+
+  .bio-data{
+  max-width: 690px;
+  display: block;
+  white-space: normal;  
+  word-break: break-word;
+ padding-top: 3px;
+}
+
+ul {
+  padding-top: 3px;
+}
+
+.text {
+  padding-top: 10px;
+}
+
+.detail2 {
+  padding-top: 6px;
+}
+
+.project-key {
+  line-height: 22px;
+}
+
+.experience-key {
+  line-height: 20px;
+}
+
+.education-key {
+  line-height: 20px;
+}
+
+.experience-key1 {
+  padding-top: 6px;
+}
+
+.project-key1 {
+  padding-top: 6px;
+}
+
+.skills-key {
+  padding-top: 6px;
+  padding-left: 0;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+h1,h2,h3{
+  color:rgba(0, 0, 0, 0.931)
+}
+
+.heading2 {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 400;
+  
+}
+
+
+
+

@@ -1,0 +1,45 @@
+.preview{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+}
+
+.preview button {
+    background-color: rgb(17, 235, 17);
+    border-radius: 10px;
+    width:110px;
+border:transparent;
+font-weight: 600;
+box-shadow: 0 5px 5px rgba(0, 0, 0, 0.702);
+}
+
+.templates {
+  width: 794px;            
+  min-height: 1123px;      
+  background: white;         
+  padding: 20px;
+  margin: auto;              
+  -webkit-font-smoothing: antialiased;   
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.preview button:hover {
+    cursor: pointer;
+    background-color: rgb(73, 249, 73);
+    transition: 0.2s;
+    transform: scale(0.97);   
+}
+
+
+.effects{
+      background: linear-gradient(to right, #007bff, #8e44ad);
+        -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-left: 29px;
+    font-size: 26px;
+    
+}
+
+

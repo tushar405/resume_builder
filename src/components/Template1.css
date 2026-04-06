@@ -1,0 +1,100 @@
+.template1 {
+  font-family: Arial;
+  padding: 15px;
+  
+}
+
+
+
+.template1 ul {
+  line-height: 20px;
+}
+
+.education-key {
+  line-height: 5px;
+}
+
+
+.detail {
+  display: flex;
+ justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  gap:2px;
+  
+}
+
+.detail2 {
+  padding-top: 6px;
+}
+
+
+.detail p {
+  display: flex;
+  align-items: center;   
+  gap: 2px;
+  line-height: 1;        
+   font-size: 12px;
+}
+
+.experience-key2 {
+  padding-top: 6px;
+}
+
+.project-key2 {
+  padding-top: 6px;
+}
+
+.education-key2 {
+  padding-top: 6px;
+}
+
+.project-key {
+  display: flex;
+  flex-direction: column;
+  gap:5px;
+}
+
+
+h1,h2,h3{
+  color:rgba(0, 0, 0, 0.931)
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.heading2 {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.skills span {
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 17px;
+}
+
+.project-key {
+  line-height: 22px;
+}
+
+
+.project-key1 {
+  padding-top: 6px;
+}
+
+.skills-key {
+  padding-top: 6px;
+  padding-left: 0;
+}
+
+
+
+
+
