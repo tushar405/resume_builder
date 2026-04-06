@@ -33,12 +33,12 @@ const Template2 = ({ data }) => {
 
             
 
-      <h3 className="skills-key">Skills</h3>
+      <h3 className="skill">Skills</h3>
   <hr /> 
-      <div className="skills">
+      <div className="skills--key">
         <div className="text">
         {skillsArray.map((skill, i) => (
-          <span className="skills-key" key={i}>{skill.trim()}</span>
+          <span className="decoration-2" key={i}>{skill.trim()}</span>
         ))}
         </div>
       </div>

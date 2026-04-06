@@ -34,9 +34,9 @@ const Template1 = ({ data }) => {
       <h3 className="skills-key">Skills</h3>
   <hr /> 
       <div className="skills">
-        <div className="text">
+        <div className="text1">
         {skillsArray.map((skill, i) => (
-          <span className="skills-key" key={i}>{skill.trim()}</span>
+          <span className="skills-keys" key={i}>{skill.trim()}</span>
         ))}
         </div>
       </div>
