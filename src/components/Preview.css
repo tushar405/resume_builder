@@ -5,12 +5,21 @@
 }
 
 .preview button {
-    background-color: rgb(17, 235, 17);
+   
     border-radius: 10px;
     width:110px;
 border:transparent;
 font-weight: 600;
 box-shadow: 0 5px 5px rgba(0, 0, 0, 0.702);
+
+
+ background: linear-gradient(90deg, #9333ea, #ec4899);
+
+color:white;
+
+padding:10px 8px;
+
+border-radius:12px;
 }
 
 .templates {
@@ -21,6 +30,7 @@ box-shadow: 0 5px 5px rgba(0, 0, 0, 0.702);
   margin: auto;              
   -webkit-font-smoothing: antialiased;   
   -moz-osx-font-smoothing: grayscale;
+  margin-top: 10px;
 }
 
 

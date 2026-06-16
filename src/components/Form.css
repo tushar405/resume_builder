@@ -1,10 +1,18 @@
 .form-container {
   display: flex;
   justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background: linear-gradient(135deg, #667eea, #764ba2);
-  padding: 20px;
+ align-items: flex-start;
+
+
+  
+ 
+
+}
+
+
+.form-wrapper {
+  width: 100%;
+  max-width: 700px;
 }
 
 .form-card {
@@ -13,17 +21,28 @@
   border-radius: 20px;
   width: 100%;
   max-width: 700px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  border: 1px solid #e5e7eb;
+  margin-top: 10px;
+ 
 }
 
 .form-title {
+  
   text-align: center;
   margin-bottom: 20px;
   font-size: 26px;
+   margin-bottom: 0;   
   font-weight: bold;
-  background: linear-gradient(to left, rgb(255, 0, 221), rgb(118, 118, 244));
+  background: linear-gradient(90deg,#2563eb,#7c3aed);
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+input:hover,
+textarea:hover{
+
+border-color:#2563eb;
+
 }
 
 .form-grid {
@@ -84,6 +103,6 @@ textarea:focus {
   }
 
   .form-grid {
-    grid-template-columns: 1fr;  /* 2 column → 1 column */
+    grid-template-columns: 1fr;  
   }
 }
